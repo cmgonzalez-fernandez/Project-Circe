@@ -25,7 +25,7 @@ Project-Circe/
 └── README.md
 ```
 ---
-🛠️ Features
+## 🛠️ Features
 - Emotionally responsive chat system
 - Local LLM-powered message generation
 - Persistent user sessions
@@ -44,3 +44,6 @@ cd ../client
 npm install
 npm run dev
 ```
+---
+## 👤 Author
+Carlos M. González-Fernández
