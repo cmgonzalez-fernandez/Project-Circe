@@ -45,5 +45,5 @@ npm install
 npm run dev
 ```
 ---
-## 👤 Author
+### 👤 Author
 Carlos M. González-Fernández
