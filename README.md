@@ -13,16 +13,28 @@ Circe combines **React, Node.js, and a local LLM API** to demonstrate how AI can
 ## 📂 Folder Structure
 ```bash
 Project-Circe/
-├── client/              # React Frontend
-│   ├── src/
+├── client/src/
+│   ├── components/
+│   │   └── ChatBox.jsx
+│   ├── App.jsx
+│   ├── index.css
+│   ├── main.jsx
 │   └── public/
-├── server/              # Express Backend
-│   ├── routes/
-│   └── models/
+│       └── index.html
+├── server/
+│   ├── models/
+│   │   └── Message.js
+│   └── routers/
+│       └── chat.js
 ├── docs/
-│   ├── architecture_diagram.png
-│   └── ui_mockups.png
+│   ├── project_overview.md
+│   ├── technical_architecture.md
+│   ├── features_and_interactions.md
+│   ├── data_flow.md
+│   └── roadmap.md
+├── .gitignore
 └── README.md
+
 ```
 ---
 ## 🛠️ Features
